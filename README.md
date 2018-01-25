@@ -23,6 +23,7 @@ Access the the path: "./docker/apache-php7-server/conf/", copy the file "php.ini
 
 ## Using Node-Server
 To use/create your projects you should host your files into `./public/node-server`. You can access a hello-world example in the url: http://localhost:8080. You can change the port on file: docker-compose.yml, but pay attention becouse you should change environment -PORT to the same as the second port on "ports" in node-server service.
+If you want to debug your code, you should read [Configurating Node Debugger](https://github.com/marcoaure/docker-workstation/wiki/Configurating-Node-Debugger)
 
 ## Using PHP 7
 To use/create your projects you should host your files into `./public/htdocs`.
