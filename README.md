@@ -5,7 +5,7 @@ Docker Workstation is a ready to use workstation with nodejs, mongoldb, apache a
 
 ## Features
 
-* None
+* NodeJS with auto-refresher on development (nodemon)
 
 ## Requirements
 * Docker and Docker Compose
@@ -16,9 +16,11 @@ On project root folder use:
 
 `$ docker-compose up -d --build`
 
+## Using Node-Server
+After runned the containner with `$ docker-compose up`, you can access a hello-world example in the url: http://localhost:8080. You can change the port on file: docker-compose.yml, but pay attention becouse you should change environment -PORT to the same as the second port on "ports" in node-server service.
+
 ## To-do
 
-- install nodejs
 - install mongodb
 - install apache
 
