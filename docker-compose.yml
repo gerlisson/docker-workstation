@@ -11,4 +11,11 @@ services:
     volumes:
       - ./public/node-server/hello-world/:/home/node/app
     ports: ['8080:8080']
-    command: "npm start"
+    command: "npm run dev"
+  mongo:
+    container_name: mongo
+    image: mongo
+    volumes:
+      - ./data/mongo:/data/db
+    ports:
+      - "27017:27017"
