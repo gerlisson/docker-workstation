@@ -5,3 +5,7 @@ nbproject
 
 # OS files
 .DS_Store
+
+# NodeServer
+public/node-server/hello-world/node_modules
+public/node-server/hello-world/package-lock.json
