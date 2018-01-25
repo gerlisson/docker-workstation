@@ -1,4 +1,4 @@
-# Docker Workstation 
+# Docker Workstation
 ![CI status](docs/images/docker-whale.svg)
 
 Docker Workstation is a ready to use workstation with nodejs, mongoldb, apache and more..
@@ -27,4 +27,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](LICENSE.md)
