@@ -19,3 +19,10 @@ services:
       - ./data/mongo:/data/db
     ports:
       - "27017:27017"
+  apache-php7-server:
+    build: {context: ./docker/apache-php7-server, dockerfile: Dockerfile}
+    container_name: apache-php7-server
+    ports:
+      - '80:80'
+    volumes:
+      - ./public/htdocs:/var/www/html
