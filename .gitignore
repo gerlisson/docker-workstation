@@ -1,0 +1,7 @@
+# IDEs
+.idea
+.vscode
+nbproject
+
+# OS files
+.DS_Store
