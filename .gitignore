@@ -9,3 +9,6 @@ nbproject
 # NodeServer
 public/node-server/hello-world/node_modules
 public/node-server/hello-world/package-lock.json
+
+# Mongo
+data
